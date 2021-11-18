@@ -15,7 +15,7 @@ Open and use forms to create and edit records
 > Live demo [_here_](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/new_to_servicenow/app_store_learnv2_buildmyfirstapp_rome_personal_developer_instances).
 
 ## Table of Contents
-* [Getting Around in ServiceNow](#getting-around)
+* [Getting Around in ServiceNow](#getting-around-in-service-now)
 * [Lists](#lists)
 * [Filters](#filters)
 * [Forms](#forms)
