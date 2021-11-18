@@ -16,9 +16,9 @@ Open and use forms to create and edit records
 
 ## Table of Contents
 * [Getting Around in ServiceNow](#getting-around)
+* [Lists](#lists)
 * [Filters](#filters)
-* [Features](#features)
-* [Screenshots](#screenshots)
+* [Forms](#forms)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -51,11 +51,21 @@ and open the Studio module by clicking on it.
 The content frame displays content pages when users select modules in the Application Navigator. The pages in the content frame render data in many ways. The most basic page types are lists and forms.
 
 
+## Lists
+A list is a content page displaying zero or more records from the same table. Rows and columns organize the list. Each row is a record and each column is a field from the record. Lists are:
+
+Searchable: Enter a value in the Search field
+Sortable: Click the column label
+Editable (if permissions allow): Double-click a field value
+
+
 ## Filters
 
 Filters determine which table records are displayed in a list. When a developer creates a list module,
 the filter conditions are set. In the example, only records with the Active field value of true appear in the list.
 The syntax All > Active = true is known as a breadcrumb.
+
+Users can create or modify filters. 
 
 - Click the Filter icon (The Filter icon is a funnel) in a list.
 - Set the [Field], [Comparison operator], and [Value] values.
@@ -63,15 +73,11 @@ The syntax All > Active = true is known as a breadcrumb.
 - Click the Run button to apply the filter to the list. 
 Only records meeting the filter condition appear in the list and the breadcrumbs are updated.
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
 
+## Forms
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+A form is a content page displaying fields and values for a single record from a database table. Forms have a 1-column layout, a 2-column layout, or a mix of both. Forms are opened from modules in the Application Navigator or by clicking a record's number in a list.
+<!-- ![Example screenshot](./img/screenshot.png) -->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
