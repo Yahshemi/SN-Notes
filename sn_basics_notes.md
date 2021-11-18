@@ -101,7 +101,5 @@ Filters display a subset of a table's records
 Forms are used to create and edit records
 
 
-
-
 ## Contact
 Created by [@Yahshemi](https://github.com/Yahshemi) - feel free to follow me!
