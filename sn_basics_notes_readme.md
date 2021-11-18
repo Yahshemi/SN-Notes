@@ -20,12 +20,7 @@ Open and use forms to create and edit records
 * [Filters](#filters)
 * [Forms](#forms)
 * [ServiceNow Basics Module Recap](#service-now-basics-module-recap)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## Getting Around in ServiceNow
