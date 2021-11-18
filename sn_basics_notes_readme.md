@@ -19,7 +19,7 @@ Open and use forms to create and edit records
 * [Lists](#lists)
 * [Filters](#filters)
 * [Forms](#forms)
-* [Setup](#setup)
+* [ServiceNow Basics Module Recap](#service-now-basics-module-recap)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -81,48 +81,32 @@ A form is a content page displaying fields and values for a single record from a
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## ServiceNow Basics Module Recap
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+Core Concepts:
 
+Personal Developer Instances are available free of charge from the ServiceNow Developer site
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+Instances hibernate when idle
+Instances are reclaimed after ten days of inactivity
+The ServiceNow user interface is made up of:
 
-`write-your-code-here`
+Banner
+Application Navigator
+Content Frame
+The syntax open Incident > Open means to go to the Application Navigator, locate the Incident application, and open the Open module
 
+Lists display records from a table, which are:
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Searchable
+Sortable
+Editable (if permissions allow)
+Filters display a subset of a table's records
 
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+Forms are used to create and edit records
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@Yahshemi](https://github.com/Yahshemi) - feel free to follow me!
