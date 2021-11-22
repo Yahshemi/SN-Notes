@@ -22,8 +22,8 @@ Open and use forms to create and edit records
 * [ServiceNow Basics Module Recap](#service-now-basics-module-recap)
 * [Adding a File to an Application](#adding-a-file-to-an-application)
 * [Adding Fields to a Table](#adding-fields-to-a-table)
+* [Adding Fields to a Table Recap](#adding-fields-to-a-table-recap)
 * [Contact](#contact)
-
 
 ## Getting Around in ServiceNow
 
@@ -211,6 +211,28 @@ Use the Form Designer to add, modify, or delete sections.
 
 Use the View menu to create or edit a view.
 
+
+## Adding Fields to a Table Recap
+
+Core Concepts:
+
+Use Guided App Creator to create applications.
+
+- Add application roles
+- Create tables
+
+The data model design determines what tables and fields an application needs.
+
+Studio is the Integrated Development Environment (IDE) for continuing development on applications.
+
+Use Studio to create application files.
+
+Use Form Designer to:
+
+- Add fields to tables
+- Create form layouts
+- Create form sections
+- Create form views
 
 
 ## Contact
