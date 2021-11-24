@@ -5,6 +5,9 @@
 
 ## Table of Contents
 * [Designing an Application](#designing-an-application)
+* [Application Scope](#application-scope)
+* [Contact](#contact)
+
 
 
 ## Designing an Application
@@ -52,6 +55,49 @@ The NeedIt application will manage and track requests for Human Resources, Legal
 - Retire the spreadsheets currently used to manage requests.
 - Improve requestor satisfaction with process and request fulfillment.
 - Automation of as many steps as possible.
+
+
+## Application Scope
+
+Applications created in Studio are known as scoped applications. Scope uniquely identifies every application file, not just within a single ServiceNow instance, but in every instance around the world. Why is this important?
+
+- Scope protects an application, its files, and its data from conflicts with other applications.
+- Scope determines which parts of an application are available for use by other applications in ServiceNow.
+- Scope allows developers to configure which parts of their application can be acted on by other applications.
+- Scope prevents work done in the main ServiceNow browser window (not in Studio) from becoming part of an application's files.
+
+###### How is Scope Set?
+
+Scope value is set automatically by ServiceNow when an application is created in Studio. Scope is constructed by concatenating 3 values:
+
+- x_
+- <value from the glide.appcreator.company.code system property>_
+- <first_10_characters_of_app_name>
+All scope values start with x_.
+
+The glide.appcreator.company.code system property is a unique, two to five character value which ServiceNow sets to identify a company's instances as belonging to the same company. Your Personal Developer Instance (PDI) has a numerical glide.appcreator.company.code value, for example 27266.
+
+The entire scope value cannot be longer than 18 characters.
+
+If you create an application called Custom Robots on your PDI, the scope would be similar to:
+
+x_27266_custom_rob
+
+###### How Do I Know What Scope I am Working In?
+
+When developing an application in Studio, the scope is automatically set to the application under development.
+
+When working in a non-Studio ServiceNow window, be aware of which scope is active. ServiceNow warns you if you attempt to work on artifacts outside of the current scope.
+
+In the example, a developer is attempting to modify the Incident list. The Incident application is a baseline ServiceNow application, which is part of the Global scope. The current scope is for the Custom Robots application, which means that an application file from the Incident application is out of scope. To resolve the problem, select a link in the warning message. Which link to select is determined by the use case.
+
+To easily see which scope is the current scope without having to wait for a warning message, add the Application Picker to the ServiceNow Banner.
+
+- In the main ServiceNow browser window, click the Settings icon (The settings icon is the rightmost icon in the ServiceNow banner.) in the ServiceNow Banner.
+- Select the Developer pane.
+- Enable the Show application picker in header option:
+- Close Settings
+- The Application Picker displays the name of the current application. If needed, use the Application Picker to change scope.
 
 
 
