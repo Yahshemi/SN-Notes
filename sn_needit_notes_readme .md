@@ -7,6 +7,7 @@
 * [Designing an Application](#designing-an-application)
 * [Application Scope](#application-scope)
 * [Creating an Application](#creating-an-application)
+* [Exercise: Create the Delete Me Application](#exercise-create-the-delete-me-application)
 * [Contact](#contact)
 
 
@@ -134,6 +135,49 @@ Click the Hello World link to open the new application.
 The new application is loaded in Studio for development to begin. There are no default application files.
 
 Configure the new application in the General Info pane.
+
+
+## Exercise: Create the Delete Me Application
+
+
+In this exercise, you will use Studio and Guided App Creator to create and delete the Delete Me application.
+
+
+###### Create the Delete Me Application
+
+- In the main ServiceNow browser window, use the Application Navigator to open System Applications > Studio.
+
+- In the Select Application dialog, click the Create Application button.
+
+- If you see the Guided App Creator Welcome screen, click the Let's get started button.
+
+- Configure the application.
+
+    Name:Delete Me
+    Description: Temporary App
+
+- Note the Scope value and its syntax. You do not need to do anything with this value, but it is important to understand for application file naming.
+
+- Click the Create button.
+
+- Click the Continue in Studio (Advanced) link to open the Select Application dialog.
+
+- Click the Delete Me link to open the application in Studio for editing.
+
+###### Delete the Delete Me Application
+Delete the Delete Me application from the Application Settings record.
+
+- In Studio, click the File menu and select the Settings menu item.
+
+- Click the Delete button.
+
+-In the Confirmation dialog, click the Delete button to confirm that you want to delete the application.
+
+- When prompted, type the word delete into the dialog, then click the OK button.
+
+- In the Progress dialog, click the Done button.
+
+- Close the Studio browser tab.
 
 
 ## Contact
