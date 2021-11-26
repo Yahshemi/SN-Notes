@@ -8,8 +8,8 @@
 * [Application Scope](#application-scope)
 * [Creating an Application](#creating-an-application)
 * [Exercise: Create the Delete Me Application](#exercise-create-the-delete-me-application)
+* [Importing an Application from Source Control](#importing-an-application-from-source-control)
 * [Contact](#contact)
-
 
 
 ## Designing an Application
@@ -178,6 +178,32 @@ Delete the Delete Me application from the Application Settings record.
 - In the Progress dialog, click the Done button.
 
 - Close the Studio browser tab.
+
+
+
+## Importing an Application from Source Control
+
+Studio integrates with GitHub repositories to manage source control for the application development process. Use any GitHub repository that is reachable using a https URL and a user account. Applications can be linked to source control after development has started. In the example below, the source code for an application that is under development exists in a GitHub repository. The application is imported into Studio from the GitHub repository.
+
+The process for importing an application from source control is:
+
+- Open Studio.
+- Click the Import From Source Control button.
+- Configure the connection to the GitHub repository and import.
+- Open the imported application for editing in Studio.
+
+The following example demonstrates the process for creating an application from source control.
+
+Launch Studio by opening System Applications > Studio in the Application Navigator.
+
+Studio opens in a new browser tab and displays the Select Application dialog.
+
+Click the Import From Source Control button, then configure the connection to the source control repository. You must provide an https URL and valid credentials.
+
+Click the Import button. A progress dialog appears. When the application import is completed, click the Select Application button.
+
+In the Select Application dialog, click the link to the new application to open it for editing in Studio.
+
 
 
 ## Contact
