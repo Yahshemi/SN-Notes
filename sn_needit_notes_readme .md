@@ -1,4 +1,4 @@
-# Creat the Need It Application
+# Create the Need It Application
 
 > ServiceNow's powerful platform allows developers to create cloud-native applications to rapidly add value to their organization. Developers can quickly create powerful applications using our Studio Integrated Development Environment (IDE) and a rich set of pre‑built services and templates. Also, because all applications are on our Platform, integrating with other ServiceNow applications is a breeze.
 
@@ -6,6 +6,7 @@
 ## Table of Contents
 * [Designing an Application](#designing-an-application)
 * [Application Scope](#application-scope)
+* [Creating an Application](#creating-an-application)
 * [Contact](#contact)
 
 
@@ -99,6 +100,40 @@ To easily see which scope is the current scope without having to wait for a warn
 - Close Settings
 - The Application Picker displays the name of the current application. If needed, use the Application Picker to change scope.
 
+
+## Creating an Application
+
+Use Studio to create applications. The process for creating an application is:
+
+- Launch Studio.
+- Click the Create Application button.
+- Name and describe the application.
+- Open the newly created application for editing in Studio or proceed through the Guided App Creator wizard.
+The following example demonstrates the process for creating an application and opening it in Studio for editing. For details about Guided App Creator, refer to the Guided App Creator and ServiceNow Studio module within the Build My First Application course.
+
+To launch Studio, use the Application Navigator to open System Applications > Studio.
+
+Studio opens in a new browser tab and the Select Application dialog opens.
+
+Click the Create Application button. Guided App Creator opens in a dialog. The Guided App Creator Welcome screen is shown if it is your first time opening Guided App Creator. Click the Let's get started button. If it is not your first time, you will see the General Info pane.
+
+ NOTE: If you are using Microsoft Edge or Internet Explorer, you may only be able to work in the legacy application creator. If you are using Safari, you need version 12 or later to use Guided App Creator. To work in Guided App Creator, use a different browser.
+
+- Name: application name
+- Description: description of the application
+- Drag and drop or browse to upload logo: image for the application
+- Scoped/Global: scope for the application
+- Scope: unique identifier for the application
+
+Click the Create button.
+
+Click the Continue in Studio (Advanced) link to open the Select Application dialog.
+
+Click the Hello World link to open the new application.
+
+The new application is loaded in Studio for development to begin. There are no default application files.
+
+Configure the new application in the General Info pane.
 
 
 ## Contact
