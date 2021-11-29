@@ -10,6 +10,8 @@
 * [Exercise: Create the Delete Me Application](#exercise-create-the-delete-me-application)
 * [Importing an Application from Source Control](#importing-an-application-from-source-control)
 * [Tables](#tables)
+* [Studio](#studio)
+* [Adding a File](#adding-a-file)
 * [Contact](#contact)
 
 
@@ -248,6 +250,77 @@ ServiceNow adds 6 fields to all tables, including those that do not extend an ex
 The decision of whether or not to extend an existing table depends on the requirements of the application. When deciding whether or not to extend a table, take the following into consideration:
 
 After the table development strategy is finalized, begin developing the application files in Studio.
+
+
+## Using Studio
+
+Use Studio to edit applications and application files. There are four components of the Studio user interface:
+
+- Header
+- Application Explorer
+- Content Frame
+- Status Bar
+
+###### Header
+The Header contains the name of the logged in user, menus, and code search.
+
+###### Application Explorer
+The Application Explorer contains a list of application files organized by category. Select an application file in the Application Explorer to open the file for viewing or editing in the Content Frame.
+
+###### Content Frame
+The Content Frame displays the form for each record in an application file. The appearance and content of the form varies with file type. Each record appears in its own tab. A dot on a tab indicates unsaved changes.
+
+###### Status Bar
+The Status Bar contains the application name, application version, number of files comprising the application, and the source control integration.
+
+
+
+## Adding a File
+
+The procedure for adding files to an application is the same regardless of file type:
+
+- Click the Create Application File link.
+- Choose the new file type.
+- Configure the new file.
+- The following example creates a Table.
+
+To add an application artifact to an application, select the Create Application File button in Studio. The Create Application File dialog opens.
+
+Use the Search field to locate the application file type of your choice, or browse the categories. Notice that the Table application file type is part of the Data Model category.
+
+Select the application file type then click the Create button.
+
+The new application file opens in a new tab in Studio.
+
+Configure the file options. Fields preceded by an asterisk are required.
+
+- *Label: Friendly name of the new table.
+- *Name: Name of the table in the database. Automatically created.
+- Extends table: The table to extend. When extending a table, the new table inherits all columns from the parent table. Leave this field blank if you are not extending a table. Tables that do not extend an existing table will automatically contain six default fields.
+- Application: The application (scope) this table belongs to (read-only field).
+- Create module: Select to add a menu option to the application.
+- Create mobile module: Select to add a menu option to the mobile application menu.
+- Add module to menu: Select or create a new application menu to add the module to. The default is to create a new application menu.
+- New menu name: Appears when -- Create new -- is selected in the Add module to menu field. Specifies the application menu to add the module to.
+
+###### Columns Section
+
+- A list of table columns.
+
+###### Controls Section
+
+- Extensible: Select this option if you intend for the table to be extended by tables in this or other applications.
+- Live feed: Select to enable interactions between this table and the Live Feed application.
+- Auto-number: When selected sets the prefix, starting number, and number of digits for the records from the table.
+- *Create access controls: When selected, creates delete, write, read, and create permissions for table records. All scoped applications are required to create access controls for their tables.
+User role: Sets the role required for a user to access the table's records.
+
+###### Application Access Section
+
+- Accessible from: Select the This application scope only option to provide complete runtime protection. Select the All application scopes option to allow access to any scope.
+- Can read/create/update/delete: Select these options to allow scripts from other application scopes to perform these database operations on the application's tables. These options never apply to the current application's scope.
+- Allow access to this table via web services: Allow scripts to make web services calls against the table. The user performing the query must have permissions to access the table.
+- Allow configuration: Allows application developers working in other application scopes, to write scripts for this table.
 
 
 ## Contact
