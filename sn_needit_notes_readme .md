@@ -9,6 +9,7 @@
 * [Creating an Application](#creating-an-application)
 * [Exercise: Create the Delete Me Application](#exercise-create-the-delete-me-application)
 * [Importing an Application from Source Control](#importing-an-application-from-source-control)
+* [Tables](#tables)
 * [Contact](#contact)
 
 
@@ -204,6 +205,49 @@ Click the Import button. A progress dialog appears. When the application import 
 
 In the Select Application dialog, click the link to the new application to open it for editing in Studio.
 
+
+
+
+## Tables
+
+After creating an application in Studio, the next step is to start the development work. Typically, but not required, the first application files to be developed are the application tables. For each application table, a decision must be made on whether or not to extend an existing table.
+
+###### Extend a Table
+Extending an existing ServiceNow table means the new table inherits the parent table's columns as well as its business logic. The most commonly extended table is the Task table.
+
+Follow these steps to view the columns in a table:
+
+- In the main ServiceNow Browser window, use the Application Navigator to open System Definition > Tables.
+- Click a table in the list, such as Task, to open it for viewing.
+- Scroll to the Columns section and examine the table's columns.
+- Follow these steps to view the database schema for a table:
+
+Scroll to the Related Links section and select the Show Schema Map link.
+Examine the schema to see the relationships between the selected table and other tables in the database.
+
+Follow these steps to view the business logic for a table:
+
+- In the main ServiceNow browser window, enter task.list in the Application Navigator Filter navigator field to open the list of records for the Task table.
+- Click a table record to open it for editing.
+- Click the Additional actions menu (Additional actions menu) and select the Configure > All menu item.
+- Select each of the tabs to examine the existing business logic for the table.
+
+Create a Table Without Extending Another Table
+Creating a table without extending an existing table means that the application developer has complete control over the table's columns and business logic. This type of table is often used for tables containing reference/lookup data. For example, a flight tracking application may have a table that contains airport locations and airport codes.
+
+ServiceNow adds 6 fields to all tables, including those that do not extend an existing table:
+
+- Created by
+- Created
+- Sys ID
+- Updates
+- Updated by
+- Updated
+
+###### Deciding Whether to Extend a Table
+The decision of whether or not to extend an existing table depends on the requirements of the application. When deciding whether or not to extend a table, take the following into consideration:
+
+After the table development strategy is finalized, begin developing the application files in Studio.
 
 
 ## Contact
